@@ -8,7 +8,9 @@ import socket
 def path():
     proj_name = pyfiglet.figlet_format("Subdomain-Checker", font='rev')
     print(Fore.GREEN + proj_name)
-    
+    print(Fore.WHITE + '-' * 80)
+    print(Fore.WHITE + f'[📩] Developed By @Eyad156 \n[📢] Youtube Channel: https://www.youtube.com/@Driply1704')
+    print(Fore.WHITE + '-' * 80)
     enter_path = ""
     while not enter_path:
         enter_path = input(Fore.WHITE + r"Enter path -> ")
