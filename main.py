@@ -5,6 +5,7 @@ import sys
 from colorama import Fore
 import pyfiglet
 import socket
+import sys
 def path():
     proj_name = pyfiglet.figlet_format("Subdomain-Checker", font='rev')
     print(Fore.GREEN + proj_name)
@@ -47,3 +48,4 @@ def path():
     check(enter_path)
 
 path()
+sys.exit()
